@@ -6,9 +6,11 @@
 //  Copyright (c) 2013年 wangjunjun. All rights reserved.
 //
 
-#import "AppDelegate.h"
 
+#import "AppDelegate.h"
+#import "PLFiveViewController.h"
 @implementation AppDelegate
+
 
 - (void)dealloc
 {
@@ -21,6 +23,11 @@
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
+    PLFiveViewController *FiveView = [[[PLFiveViewController alloc] initWithNibName:@"PLFiveViewController" bundle:nil] autorelease];
+    //ThreeArray2 *threeArr = [[[ThreeArray2 alloc] init] autorelease];
+    UINavigationController *nav = [[[UINavigationController alloc] initWithRootViewController:FiveView] autorelease];
+    nav.navigationBarHidden = YES;
+    self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;
 }

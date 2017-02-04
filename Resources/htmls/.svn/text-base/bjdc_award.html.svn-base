@@ -1,0 +1,29 @@
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>北京单场玩法说明</title>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<link href="help.css" type="text/css" rel="stylesheet">
+	</head>
+	<body>
+      <div class="new_help_con">
+	    <div class="new_help_right">
+            <ul class="tags_tools">
+                <li> <a href="bjdc_rule.html"> 玩法规则  </a> </li>
+	            <li> <a href="bjdc_howto.html">  玩法介绍 </a> </li>
+	            <li class="active"> 奖项规则 </a></li>
+            </ul>
+            <div class="help_t_int">
+				<p>每期单场胜平负游戏销售收入按以下比例分配：返奖奖金为销售总额的65%；公益金为销售总额的22%；发行经费为销售总额的13%。</p>
+				<p>购票人投注结果与实际比赛结果相一致即为中奖。如遇特别情形，按第十二条规定处理。</p>
+				<p>在竞猜单场胜平负游戏时，每场比赛须计算出SP值，并以此为依据计算各竞猜场次的单注奖金。 SP=单场总投注金额/中奖彩票的总投注金额 在竞猜的n场比赛中，各场次SP值分别为SP1、SP2、SP3……SPn。</p>
+				<p>奖金分配如下：</p>
+				<p>（一）选择单场过关时，设一个奖级，为浮动奖。 单注奖金=2元×SP×65%</p>
+				<p>（二）当选择2关及2关以上时，设一个奖级，为浮动奖： 单注奖金=2元×所选场次的SP值连乘×65%。</p>
+				<p>第十八条 单注彩票中奖奖金最高限额为500万元。</p>
+				<p>第十九条 在竞猜单场胜平负游戏时，进行单式投注中，如中奖奖金低于投注本金时，按投注本金进行返奖，不足部分由调节基金补足，调节基金不足时由发行费列支。</p>
+				<p>第二十条 单场胜平负游戏设立调节基金，由弃奖收入、浮动奖奖金取整后余额以及逾期未退票的票款等三部分组成，专项用于设置特别奖，支付不可预见情况下的奖金支出风险。</p>
+	      </div>
+       </div>
+     </div>
+	</body>
+</html>
