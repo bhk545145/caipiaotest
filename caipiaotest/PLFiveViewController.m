@@ -155,7 +155,7 @@
     _openLotteryView = [[UIView alloc] initWithFrame:CGRectMake(0, -50, 320, 120)];
     _openLotteryView.backgroundColor = [UIColor colorWithRed:248.0/255.0 green:247.0/255.0 blue:239.0/255.0 alpha:1];
     //添加开奖期和开奖号
-    CGRect rect = CGRectMake(0, 0, 107, 120);
+    CGRect rect = CGRectMake(0, 0, 200, 120);
     _kaiJiangTableView = [[UITableView alloc] initWithFrame:rect style:UITableViewStylePlain];
     _kaiJiangTableView.tag = KAIJIANG_TABLEVIEW;
     _kaiJiangTableView.dataSource = self;
